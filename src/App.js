@@ -6,7 +6,7 @@ import Register from './Components/Register/Register';
 import Logo from './Components/Logo/Logo';
 import ImageLinkForm from './Components/ImageLinkForm/ImageLinkForm';
 import Rank from './Components/Rank/Rank';
-import Particles from 'react-particles-js';
+import Particles from 'react-particles';
 import FaceRecognition from './Components/FaceRecognition/FaceRecognition';
 
 const particlesOptions = {
