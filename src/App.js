@@ -75,7 +75,7 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input});
-      fetch('https://still-waters-90987.herokuapp.com/imageurl', {
+      fetch('https://prismatic-sorbet-a97828.netlify.app/imageurl', {
         method: 'post',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
@@ -86,7 +86,7 @@ class App extends Component {
       .then(response => {
         // console.log('hi', response)
         if (response) {
-          fetch('https://still-waters-90987.herokuapp.com/image', {
+          fetch('https://prismatic-sorbet-a97828.netlify.app/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
