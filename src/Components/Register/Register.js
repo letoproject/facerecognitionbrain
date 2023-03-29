@@ -25,7 +25,7 @@ class Register extends React.Component {
 	onSubmitSignIn = () => {
 		fetch('https://prismatic-sorbet-a97828.netlify.app/register', {
 			method: 'post',
-			headers: {'Access-Control-Allow-Origin': *,
+			headers: {'Access-Control-Allow-Origin': '*',
 				'Content-Type': 'application/json'},
 			body: JSON.stringify({
 				email: this.state.email,
